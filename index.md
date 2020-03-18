@@ -2,14 +2,14 @@
 
 layout: col-sidebar
 title: OWASP Rochester
-tags: rochester
+tags: Rochester
 
-region: United States
+region: North America
 
 ---
 
 ## Welcome
-Welcome to the local Rochester chapter homepage!
+Welcome to the local Rochester Chapter homepage!
 
 If you or your organization is interested in sponsoring or hosting a meeting please contact one of the local officers listed in the side bar.
 
