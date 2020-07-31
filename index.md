@@ -5,6 +5,9 @@ title: OWASP Rochester
 tags: Rochester
 
 region: North America
+meetup-group: OWASP-Rochester-Chapter
+country: USA
+postal-code: 14602
 
 ---
 
