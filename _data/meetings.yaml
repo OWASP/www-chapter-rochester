@@ -1,3 +1,19 @@
+- title: Hardening HTTPS and SSH
+  presenter: Joe Testa
+  date: Thursday, October 29, 2020
+  time: 3:00pm - 3:40pm ET
+  link: https://www.meetup.com/issa-rochester/events/274005974/
+  description: |
+    We will talk about the inner workings of the TLS and SSH protocols and the security properties they offer. Attacks against the TLS protocol versions will be analyzed, along with weak ciphersuites and other options. Similarly, attacks on SSH and various common cryptographic settings will also be discussed. Open-source and free tools will be demonstrated to audit TLS & SSH services. Hardening techniques for achieving optimal security settings for both protocols will be covered in detail.
+
+- title: The Zero Trust Challenge for Hybrid Cloud
+  presenter: William Malik
+  date: Thursday, October 29, 2020
+  time: 2:00pm - 3:00pm ET
+  link: https://www.meetup.com/issa-rochester/events/274005974/
+  description: |
+    The hybrid cloud now handles much that was formerly done by the in-house IT organization. From an infrastructure and operations perspective however, oversight and management are more challenging than ever. During this talk, we will discuss the elements of conventional I&O that must remain – although transformed – when migrating increasing portions of an organization’s workload to hybrid cloud. We will focus on information security, and in particular the architectural challenge that zero trust places on conventional information security architectures, procedures, staffing, and audit. We will close with some hints and tips to smooth the passage to this superior cybersecurity approach.
+
 - title: C is for Cross Site Scripting
   presenter: Jim Keeler
   date: Tuesday, October 27, 2020
@@ -7,12 +23,47 @@
     In this short presentation, we'll cover the basics of cross site scripting (XSS) vulnerabilities: how they work, how to fix or mitigate them, and where you can learn more. We'll examine stored, reflected and DOM based attacks on a live vulnerable web application.
 
     (Note: This is the same presentation that was part of Rochester 2600's "The ABC's of Infosec".)
-      
+
+- title: #Online Secure Coding Tournament 🎁with prizes!
+  date: Sunday, April 26, 2020 to Friday, May 1, 2020
+  link: https://www.meetup.com/OWASP-Rochester-Chapter/events/270017693/
+  description: |
+    Join us for a gamified online secure coding tournament!
+
+    Compete against your fellow security & developer peers to identify & fix critical vulnerabilities in real-to-life code snippets! 21 frameworks available to play challenges in. Including .Net, Java, Python, Go, Angular, Node, React, iOS, Android, Scala, Ruby, PHP, C++, C, PL/SQL & COBOL!
+
+- title: "Command and KubeCTL: Real-World Kubernetes Security for Pentesters"
+  presenter: Mark Manning
+  date: Thursday, March 5, 2020
+  time: 5:30 PM to 6:30 PM EST
+  location: Nixon Peabody, 1300 Clinton Square, Rochester, NY
+  link: https://www.meetup.com/OWASP-Rochester-Chapter/events/268799447/
+  description: |
+    Kubernetes is a security challenge that many organizations need to take on, and we as pentesters, developers, security practitioners, and the technically curious need to adapt to these challenges. In this talk we will look at tactics, techniques, and tools to assess and exploit Kubernetes clusters. We will demonstrate how to intercept service mesh traffic, evade runtime syscall filters, exploit custom sidecars, and chain attacks that go from compromising a build environment, to exploiting production applications. We’ll cover real world attack paths, provide practical advice, and guidance using the experience of conducting hundreds of reviews of containerized environments while running NCC Group’s container research group.
+
+- title: OWASP ROC Chapter Meet
+  date: Tuesday, November 12, 2019
+  time: 5:30 PM to 7:30 PM EST
+  location: Sticky Lips BBQ Juke Joint & Catering, 830 Jefferson Rd · Rochester, NY
+  link: https://www.meetup.com/OWASP-Rochester-Chapter/events/265880208/
+  description: |   
+    We having a social and planning chapter meeting Nov 12th and will try a change of venue. Please bring your App Sec stories, conundrums, App Sec related questions, or just come to chat. The chapter will pay for appetizers for everyone to share. We’re also looking for suggestions for presentation or other activities. One question to consider: Would it be beneficial to have a meeting with 2 or 3 short brief presentations. Maybe local members could present briefly on a problem solved or an enhancement made.
+
+- title: Advanced Ethical Hacking
+  presenter: Jim Keeler
+  date: Tuesday, July 23, 2019
+  time: 5:30 PM to 8:30 PM EDT
+  link: https://www.meetup.com/OWASP-Rochester-Chapter/events/262646709/
+  description: |
+    Join the Rochester OWASP chapter for a fun evening of hands-on advanced ethical hacking on July 23rd at 5:30pm at Nixon Peabody.
+
+    The buffer overflow remains one of the most prolific and exploited software vulnerabilities. Join us for a brief and intense hands-on course where you will discover a buffer overflow vulnerability and then develop a code execution exploit for a stack based buffer overflow! We'll also discuss and test preventive and mitigating techniques. Pizza and soft drinks will be provided.
+
 - title: Ethical Web Hacking
   presenter: Jim Keeler
   date: Tuesday, April 23, 2019
   time: 6:00 PM to 8:30 PM EDT
-  location: 1300 Clinton Square, Rochester, NY
+  location: Nixon Peabody, 1300 Clinton Square, Rochester, NY
   link: https://www.meetup.com/OWASP-Rochester-Chapter/events/260434151/
   description: |
     Join us at 6pm on Tuesday, April 23rd for a fun filled evening of penetration testing and breaking web applications. Register today and learn how to make full-stack developers cry! Ethical hacking is hard work, so we'll provide pizza and soda.
@@ -22,3 +73,12 @@
     • Popular hacker tools for pwning browsers, databases, and password hashes.
     • The OWASP Top 10 in action.
     • How to compete in a capture the flag (CTF) event.
+
+- title: Joint OWASP-ISSA Rochester Meeting
+  presenter: Jeff Foley
+  date: Wednesday, May 8, 2019
+  time: 6:00 PM to 8:00 PM EDT
+  location: Nixon Peabody, 1300 Clinton Square, Rochester, NY
+  link: https://www.meetup.com/OWASP-Rochester-Chapter/events/260844729/
+  description: |
+    Today, large organizations deal with the challenge of running their infrastructure across many networks and namespaces due to the use of cloud and hosting services, legacy environments and acquisitions. This can make it difficult for an organization to maintain visibility of its Internet-facing assets and an ability to track down systems that pose a risk to its security posture. The OWASP Amass Project attempts to help organizations perform network mapping of its attack surface and better understand how its assets are distributed across the networks of trusted partners. During this talk, contributors to the OWASP Amass Project will discuss how to utilize the tools and demonstrate how to regain visibility of a large network infrastructure.
