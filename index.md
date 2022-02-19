@@ -16,8 +16,16 @@ Welcome to the local Rochester Chapter homepage!
 
 If you or your organization is interested in sponsoring or hosting a meeting please contact one of the local officers listed in the side bar.
 
-## Meetings
+## Upcoming Meetings
 {% include chapter_events.html group=page.meetup-group %}
+
+(Coming soon)
+
+## Past Meetings
+{% assign meetings = site.meetings.yaml.meetings %}
+{% for meeting in site.meetings.yaml %}
+{{ meeting.title }}
+{% endfor %}
 
 ## Participation
 The Open Web Application Security Project (OWASP) is a nonprofit foundation that works to improve the security of software. All of our projects ,tools, documents, forums, and chapters are free and open to anyone interested in improving application security. 
