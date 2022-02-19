@@ -14,7 +14,7 @@ postal-code: 14602
 ## Welcome
 Welcome to the Rochester, NY Chapter.
 
-If you are interested in presenting, sponsoring, or hosting a meeting, please reach out to the chapter leaders.
+If you are interested in presenting, sponsoring, or hosting a meeting, please reach out to the chapter leaders.<br><br>
 
 ## Upcoming Meetings
 {% include chapter_events.html group=page.meetup-group %}
@@ -22,13 +22,19 @@ If you are interested in presenting, sponsoring, or hosting a meeting, please re
 (Coming soon)
 
 ## Past Meetings
+
 {% for meeting in site.data.meetings %}
-<h3>{{ meeting.title }}</h3>{% if meeting.presenter %}with {{ meeting.presenter }}<br>{% endif %}
-{{ meeting.date }}{% if meeting.time %} at {{ meeting.time }} {% endif %}<br>
-Location: {% if meeting.location %}{{ meeting.location }}{% else %}Online{% endif %}<br>
-<a href="{{ meeting.link }}">{{ meeting.link }}</a><br><br>
-{{ meeting.description | newline_to_br }}<br>
-{% endfor %}<br>
+<h3>{{ meeting.title }}</h3>{% if meeting.presenter %}
+
+with {{ meeting.presenter }}{% endif %}
+
+{{ meeting.date }}{% if meeting.time %} at {{ meeting.time }} {% endif %}
+
+Location: {% if meeting.location %}{{ meeting.location }}{% else %}Online{% endif %}
+
+<a href="{{ meeting.link }}">{{ meeting.link }}</a>
+<p>{{ meeting.description | newline_to_br }}</p>
+{% endfor %}
 
 ## Participation
 The Open Web Application Security Project (OWASP) is a nonprofit foundation that works to improve the security of software. All of our projects ,tools, documents, forums, and chapters are free and open to anyone interested in improving application security. 
