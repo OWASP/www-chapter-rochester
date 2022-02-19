@@ -23,10 +23,9 @@ If you are interested in presenting, sponsoring, or hosting a meeting, please re
 
 ## Past Meetings
 {% for meeting in site.data.meetings %}
-<h3>{{ meeting.title }}</h3>
-{% if meeting.presenter %}{{ meeting.presenter }}<br>{% endif %}
-When: {{ meeting.date }}{% if meeting.time %} at {{ meeting.time }} {% endif %}<br>
-{% if meeting.location %}Location: {{ meeting.location }}<br>{% endif %}
+<h3>{{ meeting.title }}</h3>{% if meeting.presenter %}with {{ meeting.presenter }}<br>{% endif %}
+{{ meeting.date }}{% if meeting.time %} at {{ meeting.time }} {% endif %}<br>
+Location: {% if meeting.location %}{{ meeting.location }}{% else %}Online{% endif %}<br>
 <a href="{{ meeting.link }}">{{ meeting.link }}</a><br><br>
 {{ meeting.description | newline_to_br }}<br>
 {% endfor %}<br>
