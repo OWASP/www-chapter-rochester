@@ -22,8 +22,7 @@ If you or your organization is interested in sponsoring or hosting a meeting ple
 (Coming soon)
 
 ## Past Meetings
-{% assign meetings = site.meetings.yaml.meetings %}
-{% for meeting in site.meetings.yaml %}
+{% for meeting in site.data.meetings %}
 {{ meeting.title }}
 {% endfor %}
 
