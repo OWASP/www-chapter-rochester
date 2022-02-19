@@ -12,9 +12,9 @@ postal-code: 14602
 ---
 
 ## Welcome
-Welcome to the local Rochester Chapter homepage!
+Welcome to the Rochester, NY Chapter.
 
-If you or your organization is interested in sponsoring or hosting a meeting please contact one of the local officers listed in the side bar.
+If you are interested in presenting, sponsoring, or hosting a meeting, please reach out to the chapter leaders.
 
 ## Upcoming Meetings
 {% include chapter_events.html group=page.meetup-group %}
@@ -23,7 +23,11 @@ If you or your organization is interested in sponsoring or hosting a meeting ple
 
 ## Past Meetings
 {% for meeting in site.data.meetings %}
-{{ meeting.title }}
+###{{ meeting.title }}
+{{ meeting.presenter }}
+{{ meeting.date }} at {{ meeting.time }}
+{{ meeting.link }}
+{{ meeting.description }}
 {% endfor %}
 
 ## Participation
