@@ -23,11 +23,13 @@ If you are interested in presenting, sponsoring, or hosting a meeting, please re
 
 ## Past Meetings
 {% for meeting in site.data.meetings %}
-###{{ meeting.title }}
-{{ meeting.presenter }}
-{{ meeting.date }} at {{ meeting.time }}
-{{ meeting.link }}
-{{ meeting.description }}
+<h3>{{ meeting.title }}</h3>
+{{ meeting.presenter }}<br>
+When: {{ meeting.date }}{% if meeting.time %} at {{ meeting.time }} {% endif %}<br>
+{% if meeting.location %}Location: {{ meeting.location }}<br>{% endif %}
+Register to attend at <a href="{{ meeting.link }}">{{ meeting.link }}</a><br>
+<br>
+{{ meeting.description }}<br>
 {% endfor %}
 
 ## Participation
