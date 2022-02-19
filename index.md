@@ -10,11 +10,11 @@ country: USA
 postal-code: 14602
 
 ---
-
+<link rel="stylesheet" href="/www-chapter-rochester/assets/css/styles.css">
 ## Welcome
 Welcome to the Rochester, NY Chapter.
 
-If you are interested in presenting, sponsoring, or hosting a meeting, please reach out to the chapter leaders.<br><br>
+If you are interested in presenting, sponsoring, or hosting a meeting, please reach out to the chapter leaders.
 
 ## Upcoming Meetings
 {% include chapter_events.html group=page.meetup-group %}
